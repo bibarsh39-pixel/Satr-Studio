@@ -1,0 +1,11 @@
+build/
+bin/
+dist/
+evidence/
+downloads/
+releases/
+__pycache__/
+*.pyc
+*.o
+*.obj
+packaging/uninstall-files.nsh

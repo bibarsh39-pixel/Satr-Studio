@@ -1,0 +1,186 @@
+{
+  "اللغة": [
+    "Language",
+    "Langue"
+  ],
+  "تتغير لغة الواجهة فور الحفظ. يبقى الكود كما كتبته.": [
+    "The interface changes when you save. Your code stays unchanged.",
+    "La langue change dès l’enregistrement. Votre code reste inchangé."
+  ],
+  "الأداء": [
+    "Performance",
+    "Performances"
+  ],
+  "بدء سريع": [
+    "Quick start",
+    "Démarrage rapide"
+  ],
+  "أداء أعلى": [
+    "Faster program",
+    "Exécution optimisée"
+  ],
+  "بدء سريع مناسب للتمارين. أداء أعلى يسرّع الحسابات الطويلة، وقد يزيد وقت الترجمة الأولى.": [
+    "Quick start suits exercises. Faster program speeds up long computations, but may take longer to compile the first time.",
+    "Démarrage rapide convient aux exercices. Exécution optimisée accélère les calculs longs, mais la première compilation peut durer plus longtemps."
+  ],
+  "المترجم والإكمال": [
+    "Compiler and completion",
+    "Compilateur et complétion"
+  ],
+  "استخدام ذاكرة الترجمة": [
+    "Reuse previous builds",
+    "Réutiliser les compilations"
+  ],
+  "فحص الملفات والترويسات قبل إعادة استخدام الترجمة.": [
+    "Checks source and header files before reusing a build.",
+    "Vérifie le code et les en-têtes avant de réutiliser une compilation."
+  ],
+  "المساعد": [
+    "Assistant",
+    "Assistant"
+  ],
+  "الخصوصية": [
+    "Privacy",
+    "Confidentialité"
+  ],
+  "لا يرسل التطبيق الكود إلى الإنترنت. تنزيل الأدوات يبدأ عند طلبك فقط. البرامج التي تشغّلها تملك صلاحيات حسابك.": [
+    "The app does not upload your code. Tools are downloaded only on request. Programs you run have your account’s permissions.",
+    "L’application n’envoie pas votre code. Les outils sont téléchargés à votre demande. Les programmes exécutés disposent des droits de votre compte."
+  ],
+  "التخزين المؤقت": [
+    "Build cache",
+    "Cache de compilation"
+  ],
+  "تم تعطيل ذاكرة الترجمة لهذا التشغيل.": [
+    "Build cache disabled for this run.",
+    "Cache de compilation désactivé pour cette exécution."
+  ],
+  "تحضير تشغيل سريع": [
+    "Preparing quick run",
+    "Préparation du démarrage rapide"
+  ],
+  "التحقق من الملفات": [
+    "Checking files",
+    "Vérification des fichiers"
+  ],
+  "تعذر تشغيل المترجم لفحص الملف. ": [
+    "Could not start the compiler. ",
+    "Impossible de lancer le compilateur. "
+  ],
+  "تعذر إرسال الملف إلى المترجم.": [
+    "Could not send the file to the compiler.",
+    "Impossible de transmettre le fichier au compilateur."
+  ],
+  "لم يجد المترجم تصحيحًا جاهزًا. فعّل المساعد المحلي من الإعدادات للمحاولة بالذكاء الاصطناعي.": [
+    "No compiler fix is available. Enable the local assistant in Settings to try a suggestion.",
+    "Aucune correction du compilateur. Activez l’assistant local dans les paramètres pour obtenir une suggestion."
+  ],
+  "هذا الملف أكبر من حد المساعد الخفيف (8 كيلوبايت). لم يتم تغيير الكود.": [
+    "This file exceeds the local assistant limit (8 KB). Code was not changed.",
+    "Le fichier dépasse la limite de l’assistant local (8 Ko). Le code reste inchangé."
+  ],
+  "ملفات المساعد غير موجودة. أعد مجلد assistant بجوار Satr.exe.": [
+    "Assistant files are missing. Restore the assistant folder next to the application.",
+    "Fichiers de l’assistant manquants. Restaurez le dossier assistant à côté de l’application."
+  ],
+  "تعذر تجهيز طلب التصحيح.": [
+    "Could not prepare the correction request.",
+    "Impossible de préparer la correction."
+  ],
+  "تعذر إنشاء ملف مؤقت للتصحيح.": [
+    "Could not create a temporary correction file.",
+    "Impossible de créer le fichier temporaire de correction."
+  ],
+  "تعذر تشغيل المساعد المحلي. ": [
+    "Could not start the local assistant. ",
+    "Impossible de lancer l’assistant local. "
+  ],
+  "افتح ملفًا غير فارغ أصغر من 60 كيلوبايت للتصحيح.": [
+    "Open a nonempty file smaller than 60 KB to correct errors.",
+    "Ouvrez un fichier non vide de moins de 60 Ko pour corriger les erreurs."
+  ],
+  "توقّف التصحيح لأن الناتج أكبر من الحد المسموح.": [
+    "Correction stopped: output exceeded the size limit.",
+    "Correction arrêtée : la sortie dépasse la limite de taille."
+  ],
+  "استغرق التصحيح وقتًا طويلًا. لم يتم تغيير الكود.": [
+    "Correction timed out. Code was not changed.",
+    "Délai de correction dépassé. Le code reste inchangé."
+  ],
+  "لم يتمكن المساعد المحلي من إكمال الطلب.": [
+    "The local assistant could not complete the request.",
+    "L’assistant local n’a pas pu terminer la demande."
+  ],
+  "لم يجد المساعد تصحيحًا صالحًا. لم يتم تغيير الكود.": [
+    "No valid correction was found. Code was not changed.",
+    "Aucune correction valide trouvée. Le code reste inchangé."
+  ],
+  "التصحيح المقترح ما زال يحتوي على أخطاء ترجمة؛ لم يُطبّق.": [
+    "The suggestion still has compiler errors and was not applied.",
+    "La suggestion contient encore des erreurs de compilation et n’a pas été appliquée."
+  ],
+  "جارٍ تحميل ": [
+    "Downloading ",
+    "Téléchargement de "
+  ],
+  "تحميل ": [
+    "Downloading ",
+    "Téléchargement de "
+  ],
+  "جارٍ تجهيز ": [
+    "Preparing ",
+    "Préparation de "
+  ],
+  " جاهز": [
+    " ready",
+    " prêt"
+  ],
+  "مترجم C وC++ والمكتبات القياسية": [
+    "C/C++ compiler and standard libraries",
+    "Compilateur C/C++ et bibliothèques standard"
+  ],
+  "أداة إكمال الكود": [
+    "Code completion",
+    "Complétion du code"
+  ],
+  "محرك المساعد المحلي": [
+    "Local assistant engine",
+    "Moteur de l’assistant local"
+  ],
+  "نموذج المساعد المحلي": [
+    "Local assistant model",
+    "Modèle de l’assistant local"
+  ],
+  "جارٍ تثبيت Microsoft Visual C++. وافق على طلب ويندوز لإكمال التجهيز.": [
+    "Installing Microsoft Visual C++. Accept the Windows prompt to continue.",
+    "Installation de Microsoft Visual C++. Acceptez la demande de Windows pour continuer."
+  ],
+  "تم تثبيت Microsoft Visual C++": [
+    "Microsoft Visual C++ installed",
+    "Microsoft Visual C++ installé"
+  ],
+  "جارٍ فحص الأدوات المطلوبة…": [
+    "Checking required tools…",
+    "Vérification des outils requis…"
+  ],
+  "جارٍ التحقق من نموذج المساعد…": [
+    "Checking the assistant model…",
+    "Vérification du modèle de l’assistant…"
+  ],
+  "جارٍ تجربة ترجمة وتشغيل برنامج C وبرنامج C++…": [
+    "Testing C and C++ compilation and execution…",
+    "Test de compilation et d’exécution C et C++…"
+  ],
+  "كل الأدوات جاهزة. يمكنك الآن كتابة البرامج وتشغيلها.": [
+    "All tools are ready. You can run your programs.",
+    "Les outils sont prêts. Vous pouvez exécuter vos programmes."
+  ],
+  "تعذر إكمال التجهيز. تحقق من الإنترنت ثم حاول مجددًا. ": [
+    "Setup failed. Check the connection and try again. ",
+    "Échec de la préparation. Vérifiez la connexion et réessayez. "
+  ],
+  "F9 لتشغيل البرنامج في نافذة مستقلة.\nاكتب المدخلات في نافذة التشغيل.": [
+    "F9 opens the run window.\nEnter input there.",
+    "F9 ouvre la console.\nSaisissez les données ici."
+  ]
+}

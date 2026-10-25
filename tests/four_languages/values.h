@@ -1,0 +1,1 @@
+#define MULTIPLIER 2

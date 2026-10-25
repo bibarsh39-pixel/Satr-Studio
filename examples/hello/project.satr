@@ -1,0 +1,5 @@
+{
+  "format": "satr-project-v1",
+  "name": "البداية مع سطر",
+  "sources": ["main.cpp"]
+}

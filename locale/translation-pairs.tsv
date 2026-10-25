@@ -1,0 +1,278 @@
+Code editor	Éditeur de code
+Undo	Annuler
+Redo	Rétablir
+Cut	Couper
+Copy	Copier
+Paste	Coller
+Select all	Tout sélectionner
+OK	OK
+New file\tCtrl+N	Nouveau fichier\tCtrl+N
+Open file…\tCtrl+O	Ouvrir un fichier…\tCtrl+O
+Save\tCtrl+S	Enregistrer\tCtrl+S
+Save as…\tCtrl+Shift+S	Enregistrer sous…\tCtrl+Shift+S
+Close file\tCtrl+W	Fermer le fichier\tCtrl+W
+New project…	Nouveau projet…
+Open project…	Ouvrir un projet…
+Close project	Fermer le projet
+Exit\tAlt+F4	Quitter\tAlt+F4
+File	Fichier
+Undo\tCtrl+Z	Annuler\tCtrl+Z
+Redo\tCtrl+Y	Rétablir\tCtrl+Y
+Cut\tCtrl+X	Couper\tCtrl+X
+Copy\tCtrl+C	Copier\tCtrl+C
+Paste\tCtrl+V	Coller\tCtrl+V
+Select all\tCtrl+A	Tout sélectionner\tCtrl+A
+Find in file…\tCtrl+F	Rechercher…\tCtrl+F
+Edit	Édition
+Build and run\tF9	Compiler et exécuter\tF9
+Build only\tCtrl+F9	Compiler\tCtrl+F9
+Stop\tShift+F9	Arrêter\tShift+F9
+Next error\tF4	Erreur suivante\tF4
+Fix errors\tCtrl+Shift+F9	Corriger les erreurs\tCtrl+Shift+F9
+Run	Exécution
+Working example	Exemple prêt à exécuter
+Example with errors	Exemple avec des erreurs
+Install tools…	Installer les outils…
+Settings…	Paramètres…
+About Satr Studio	À propos de Satr Studio
+Help	Aide
+Run  F9	Exécuter  F9
+Build	Compiler
+Stop	Arrêter
+Home	Accueil
+Save	Enregistrer
+Open	Ouvrir
+New	Nouveau
+Menu	Menu
+File  /  C++	Fichier  /  C++
+Editor	Éditeur
+Find	Rechercher
+Files	Fichiers
+Open files	Fichiers ouverts
+Run your program	Exécuter le programme
+Press F9 to run in a separate window.\nEnter input in that window.	F9 ouvre une fenêtre d’exécution.\nSaisissez les données dans cette fenêtre.
+Fix errors	Corriger les erreurs
+Checks the file and previews the fix. Ctrl+Shift+F9	Vérifie le fichier et affiche la correction. Ctrl+Shift+F9
+Errors	Erreurs
+Install tools	Installer les outils
+Settings	Paramètres
+Type	Type
+Problem	Problème
+File	Fichier
+Line	Ligne
+Column	Colonne
+Press F9 to run. Compilation errors appear here.	Appuyez sur F9. Les erreurs de compilation apparaissent ici.
+Enter program input…	Saisissez les données du programme…
+Program input	Entrée du programme
+Send	Envoyer
+End input	Terminer la saisie
+Internal test	Test interne
+Build log	Journal de compilation
+Ready	Prêt
+Line 1  |  Column 1	Ligne 1  |  Colonne 1
+C, C++, Python and JavaScript are ready.	C, C++, Python et JavaScript sont prêts.
+Some tools are missing. Choose “Install tools” to set them up.	Des outils manquent. Cliquez sur « Installer les outils ».
+Get started	Commencer
+Open project	Ouvrir un projet
+Open a Satr Studio or Code::Blocks project	Ouvrir un projet Satr Studio ou Code::Blocks
+New C file	Nouveau fichier C
+Start with a C program	Commencer un programme C
+New C++ file	Nouveau fichier C++
+Start with a C++ program	Commencer un programme C++
+New Python file	Nouveau fichier Python
+New JavaScript file	Nouveau fichier JavaScript
+Open file	Ouvrir un fichier
+Recent files	Fichiers récents
+No recent files yet.	Aucun fichier récent.
+Satr Studio — Home	Satr Studio — Accueil
+New file	Nouveau fichier
+File  /  New file	Fichier  /  Nouveau fichier
+main.cpp	main.cpp
+Code changed. Build again to update errors.	Le code a changé. Recompilez pour actualiser les erreurs.
+Line %d  |  Column %d	Ligne %d  |  Colonne %d
+Cannot open file:\n	Impossible d’ouvrir le fichier :\n
+This file is larger than 8 MB. Open a smaller source file to keep the editor responsive.	Ce fichier dépasse 8 Mo. Ouvrez un fichier plus petit pour garder un éditeur réactif.
+Cannot read this file as UTF-8. Convert it to UTF-8 and open it again.	Impossible de lire ce fichier en UTF-8. Convertissez-le en UTF-8 puis rouvrez-le.
+Save file	Enregistrer le fichier
+C++ files (*.cpp)|*.cpp|C files (*.c)|*.c|Python (*.py)|*.py|JavaScript (*.js;*.mjs;*.cjs)|*.js;*.mjs;*.cjs|Header files (*.h;*.hpp)|*.h;*.hpp|All files (*.*)|*.*	Fichiers C++ (*.cpp)|*.cpp|Fichiers C (*.c)|*.c|Python (*.py)|*.py|JavaScript (*.js;*.mjs;*.cjs)|*.js;*.mjs;*.cjs|En-têtes (*.h;*.hpp)|*.h;*.hpp|Tous les fichiers (*.*)|*.*
+Cannot save the file. Check folder permissions:\n	Impossible d’enregistrer. Vérifiez les droits du dossier :\n
+Save changes before closing this file?\n	Enregistrer les modifications avant de fermer ce fichier ?\n
+Unsaved changes	Modifications non enregistrées
+Discard changes	Ignorer les modifications
+Cancel	Annuler
+Build the project to see errors and warnings.	Compilez le projet pour afficher les erreurs et avertissements.
+Stop the current task before changing projects.	Arrêtez la tâche en cours avant de changer de projet.
+Cannot read the project. Check its files and its Satr Studio or Code::Blocks format.	Impossible de lire le projet. Vérifiez les fichiers et le format Satr Studio ou Code::Blocks.
+Code::Blocks project opened. Only source files, include paths and project definitions are imported. Target settings, custom commands and plugins are not executed. Check the compiler settings before building.	Projet Code::Blocks ouvert. Seuls les fichiers, chemins d’inclusion et définitions sont importés. Les cibles, commandes personnalisées et extensions ne sont pas exécutées. Vérifiez les paramètres du compilateur.
+Project opened: 	Projet ouvert : 
+Continue	Continuer
+Stop the current task before creating a project.	Arrêtez la tâche en cours avant de créer un projet.
+Choose a folder for the new project	Choisir un dossier pour le nouveau projet
+New project	Nouveau projet
+Project name	Nom du projet
+Enter a valid folder name without path separators.	Saisissez un nom de dossier valide sans séparateur de chemin.
+The folder already exists or could not be created. Choose another name.	Le dossier existe déjà ou sa création a échoué. Choisissez un autre nom.
+Cannot create the project file.	Impossible de créer le fichier du projet.
+Cannot save the project file.	Impossible d’enregistrer le projet.
+Stop the current task before installing tools.	Arrêtez la tâche en cours avant d’installer les outils.
+Setup files are missing. Extract the complete Satr Studio package and try again.	Les fichiers d’installation manquent. Extrayez le paquet Satr Studio complet et réessayez.
+All tools are ready. You can write and run programs.	Les outils sont prêts. Vous pouvez écrire et exécuter vos programmes.
+Tool setup did not finish. You can try again.	L’installation des outils n’a pas abouti. Vous pouvez réessayer.
+Tools are ready.	Les outils sont prêts.
+Cannot open the installer window. Run Install-Linux.sh from the application package.\n	Impossible d’ouvrir l’installation. Lancez Install-Linux.sh depuis le paquet.\n
+Complete tool installation in the separate window.	Terminez l’installation dans la fenêtre séparée.
+Stop the current task before changing settings.	Arrêtez la tâche en cours avant de modifier les paramètres.
+Satr Studio settings	Paramètres de Satr Studio
+C++ compiler — choose g++	Compilateur C++ — choisir g++
+Browse…	Parcourir…
+Complete variables and library functions	Compléter les variables et fonctions des bibliothèques
+C++ standard	Norme C++
+Use the local AI when fixing errors	Utiliser l’IA locale pour corriger les erreurs
+C uses C17. Error explanations work locally, without internet.	C utilise C17. Les explications d’erreurs fonctionnent hors ligne.
+Save settings	Enregistrer
+Choose C++ compiler	Choisir le compilateur C++
+No compiler exists at this path. Settings were not changed.	Aucun compilateur à cet emplacement. Les paramètres restent inchangés.
+Settings saved	Paramètres enregistrés
+Choose “Install tools” to set up the compiler.	Cliquez sur « Installer les outils » pour préparer le compilateur.
+Choose “Install tools” to set up advanced completion.	Cliquez sur « Installer les outils » pour préparer la complétion avancée.
+Warning	Avertissement
+Note	Note
+Error	Erreur
+Line %d	Ligne %d
+Column %d	Colonne %d
+Errors  (%d)	Erreurs  (%d)
+Build completed without errors or warnings.	Compilation terminée sans erreur ni avertissement.
+%d errors, %d warnings. Click an error to open its location. Right-click for the original message.	%d erreurs, %d avertissements. Cliquez pour accéder au code. Clic droit pour le message original.
+Code changed; the error location may have moved.\n	Le code a changé ; l’emplacement peut avoir changé.\n
+Checking file	Vérification du fichier
+Select a C or C++ file, or open a project with source files.	Sélectionnez un fichier C ou C++, ou ouvrez un projet contenant du code.
+Cannot create the temporary build folder.	Impossible de créer le dossier temporaire de compilation.
+This compiler needs a build path with Latin characters. Use a Windows account with a Latin path or enable short path names.	Ce compilateur nécessite un chemin de compilation en caractères latins. Utilisez un compte Windows avec un chemin latin ou activez les noms courts.
+Building; results will appear when finished.	Compilation en cours ; les résultats apparaîtront à la fin.
+Compiling: 	Compilation : 
+Checking changes: 	Vérification des modifications : 
+Linking program	Édition des liens
+Code unchanged; reusing the previous compilation.\n	Code inchangé ; compilation précédente réutilisée.\n
+Using the previously linked program.\n	Exécutable précédent réutilisé.\n
+Syntax error	Erreur de syntaxe
+Build stopped	Compilation arrêtée
+Build stopped before completion. Build again to see results.	Compilation interrompue. Recompilez pour obtenir les résultats.
+Build could not complete	La compilation n’a pas abouti
+Open the build log and check the compiler settings.	Consultez le journal de compilation et les paramètres du compilateur.
+Build failed; check errors · %.2f s	Échec de compilation ; consultez les erreurs · %.2f s
+Build complete · %.2f s	Compilation terminée · %.2f s
+Build completed in %.2f seconds.\n	Compilation terminée en %.2f secondes.\n
+Cannot open the run window	Impossible d’ouvrir la fenêtre d’exécution
+Check that SatrRunner is next to the application.\n	Vérifiez que SatrRunner se trouve à côté de l’application.\n
+Running in a separate window — enter input there	Exécution dans une fenêtre séparée — saisissez les données là-bas
+Cannot start the program	Impossible de lancer le programme
+Program running — enter input or stop it	Programme en cours — saisissez les données ou arrêtez-le
+Cannot send input now. The program may have ended or the input queue may be full.	Impossible d’envoyer les données. Le programme est peut-être terminé ou la file d’entrée est pleine.
+Program and run window stopped	Programme et fenêtre arrêtés
+Program finished successfully — see the run window	Programme terminé — consultez la fenêtre d’exécution
+Program exited with code %lu — see the run window	Programme terminé avec le code %lu — consultez la fenêtre d’exécution
+Program stopped	Programme arrêté
+Program finished successfully	Programme terminé avec succès
+Program exited with code %lu (0x%08lX)	Programme terminé avec le code %lu (0x%08lX)
+Review fix	Vérifier la correction
+Local assistant suggestion. It compiles successfully; check that the change preserves the intended behavior.	Suggestion de l’assistant local. Elle compile ; vérifiez qu’elle conserve le comportement attendu.
+Compiler-suggested fix, checked by compilation. Review the change before applying it.	Correction proposée par le compilateur et vérifiée. Relisez-la avant de l’appliquer.
+After correction	Après correction
+Current code	Code actuel
+Undo with Ctrl+Z. The file will not be saved automatically.	Ctrl+Z pour annuler. Le fichier ne sera pas enregistré automatiquement.
+Apply fix	Appliquer
+Fix applied. Run with F9, or undo with Ctrl+Z.	Correction appliquée. F9 pour exécuter, Ctrl+Z pour annuler.
+The file changed; request a new fix.	Le fichier a changé ; demandez une nouvelle correction.
+Fix was not applied	Correction non appliquée
+Error correction is available for C and C++. Choose Build to check this file.	La correction concerne C et C++. Cliquez sur Compiler pour vérifier ce fichier.
+Checking errors…	Vérification des erreurs…
+The file changed; correction was stopped. Try again.	Le fichier a changé ; correction arrêtée. Réessayez.
+The assistant is suggesting a fix… Use Stop to cancel.	L’assistant prépare une correction… Cliquez sur Arrêter pour annuler.
+Checking the fix…	Vérification de la correction…
+No compilation errors in this file. Test the program to find logic errors.	Aucune erreur de compilation. Testez le programme pour vérifier sa logique.
+Find in file	Rechercher dans le fichier
+Search text	Texte à rechercher
+Text not found.	Texte introuvable.
+Stop the current task before opening the example.	Arrêtez la tâche en cours avant d’ouvrir l’exemple.
+Press F9 to see the error explanation.	Appuyez sur F9 pour voir l’explication de l’erreur.
+Press F9 to build and run the example.	Appuyez sur F9 pour compiler et exécuter l’exemple.
+Open source file	Ouvrir un fichier de code
+Source files (*.c;*.cpp;*.cc;*.cxx;*.h;*.hpp;*.py;*.js;*.mjs;*.cjs)|*.c;*.cpp;*.cc;*.cxx;*.h;*.hpp;*.py;*.js;*.mjs;*.cjs|All files (*.*)|*.*	Fichiers de code (*.c;*.cpp;*.cc;*.cxx;*.h;*.hpp;*.py;*.js;*.mjs;*.cjs)|*.c;*.cpp;*.cc;*.cxx;*.h;*.hpp;*.py;*.js;*.mjs;*.cjs|Tous les fichiers (*.*)|*.*
+Correction cancelled	Correction annulée
+Stopping…	Arrêt en cours…
+Stop the current task before closing the project.	Arrêtez la tâche en cours avant de fermer le projet.
+Project closed. Only files in this tab will be compiled.	Projet fermé. Seul le fichier de cet onglet sera compilé.
+Satr Studio project (*.satr)|*.satr|Code::Blocks project (*.cbp)|*.cbp	Projet Satr Studio (*.satr)|*.satr|Projet Code::Blocks (*.cbp)|*.cbp
+Program input closed.	Entrée du programme fermée.
+Satr Studio 0.8.1\nC, C++, Python and JavaScript editor.\n\nCompletion, error explanations and a separate run window.\nReview suggested fixes before applying them.\nThe assistant works locally and never uploads your code.	Satr Studio 0.8.1\nÉditeur C, C++, Python et JavaScript.\n\nComplétion, explications d’erreurs et fenêtre d’exécution séparée.\nVérifiez les corrections avant de les appliquer.\nL’assistant fonctionne localement et n’envoie pas votre code.
+Show original compiler message	Afficher le message original
+A task or run window is still open. Stop it and close Satr Studio?	Une tâche ou une fenêtre d’exécution est ouverte. L’arrêter et fermer Satr Studio ?
+Close Satr Studio	Fermer Satr Studio
+Stop and close	Arrêter et fermer
+Keep working	Continuer
+Activate	Activer
+Write and run	Écrire et exécuter
+Open a file or start a new program.	Ouvrez un fichier ou créez un programme.
+Setup did not finish. Close this window and try again.	L’installation n’a pas abouti. Fermez cette fenêtre et réessayez.
+Close	Fermer
+Cancelling download…	Annulation du téléchargement…
+Set up tools	Installer les outils
+Downloads missing tools and sets them up. Windows may request permission to install Microsoft Visual C++ if needed.	Télécharge et configure les outils manquants. Windows peut demander une autorisation pour installer Microsoft Visual C++.
+Checking tools…	Vérification des outils…
+Cannot start setup: 	Impossible de lancer l’installation : 
+Compiler note	Note du compilateur
+Additional information about the previous problem. Check the original message and indicated location.	Informations sur le problème précédent. Consultez le message original et l’emplacement indiqué.
+Program entry point missing	Point d’entrée manquant
+Make sure main exists and its source file is included. Check the project type if WinMain is expected.	Vérifiez la présence de main et de son fichier. Vérifiez le type du projet si WinMain est attendu.
+Missing definition during linking	Définition manquante à l’édition des liens
+Add the source file or library defining this symbol, and check that the signatures match.	Ajoutez le fichier ou la bibliothèque qui définit ce symbole et vérifiez sa signature.
+Duplicate definition	Définition en double
+A symbol has multiple definitions. Check the source files and keep a single definition where required.	Un symbole a plusieurs définitions. Vérifiez les fichiers et gardez une seule définition si nécessaire.
+Required file missing	Fichier requis introuvable
+Check the file name, path and include directories shown in the original message.	Vérifiez le nom, le chemin et les dossiers d’inclusion indiqués dans le message original.
+Link library missing	Bibliothèque de liens introuvable
+Check the library name and path, and its compiler and architecture compatibility.	Vérifiez le nom et le chemin de la bibliothèque, ainsi que sa compatibilité avec le compilateur et l’architecture.
+Expected semicolon	Point-virgule attendu
+The compiler expects ; here. Check this location and the preceding line before adding it.	Le compilateur attend ; ici. Vérifiez cet emplacement et la ligne précédente avant de l’ajouter.
+Expected closing brace	Accolade fermante attendue
+Check matching { and } braces, including blocks started before this location.	Vérifiez l’équilibre des accolades { et }, y compris celles ouvertes plus haut.
+Expected closing parenthesis	Parenthèse fermante attendue
+Check matching ( and ) parentheses in the nearby expression or function call.	Vérifiez les parenthèses ( et ) dans l’expression ou l’appel de fonction.
+Expected closing bracket	Crochet fermant attendu
+Check matching [ and ] brackets in the array declaration or element access.	Vérifiez les crochets [ et ] dans la déclaration du tableau ou l’accès à un élément.
+Name not declared in this scope	Nom non déclaré dans cette portée
+Check spelling and case. Declare the name or include its header before using it.	Vérifiez l’orthographe et la casse. Déclarez le nom ou incluez son en-tête avant de l’utiliser.
+Unknown type name	Nom de type inconnu
+Check the type name, declaration, header and namespace.	Vérifiez le nom du type, sa déclaration, son en-tête et son espace de noms.
+Function call does not match	Appel de fonction incompatible
+Compare argument counts and types with the function declaration. Compiler notes may list available signatures.	Comparez le nombre et le type des arguments à la déclaration. Les notes peuvent préciser les signatures possibles.
+Incompatible types	Types incompatibles
+Check the required and supplied types. Correct the data or operation before using an explicit cast.	Vérifiez les types requis et utilisés. Corrigez les données ou l’opération avant une conversion explicite.
+Missing closing quote	Guillemet fermant manquant
+Check the start and end of the string. Escape quotes inside the string when needed.	Vérifiez le début et la fin de la chaîne. Échappez les guillemets internes si nécessaire.
+Declared but unused item	Élément déclaré mais inutilisé
+Use the item if needed or remove its declaration. This is a warning unless warnings are treated as errors.	Utilisez l’élément ou supprimez sa déclaration. C’est un avertissement, sauf si ceux-ci sont traités comme des erreurs.
+Value may be used before initialization	Valeur potentiellement non initialisée
+Initialize the variable before reading it. Check every branch and loop path.	Initialisez la variable avant de la lire. Vérifiez chaque branche et chaque boucle.
+Return value required	Valeur de retour requise
+Check that every relevant path returns a value matching the function’s return type.	Vérifiez que chaque chemin pertinent renvoie une valeur du type attendu.
+Comparison of signed and unsigned values	Comparaison de valeurs signées et non signées
+Check both types and ranges, especially when comparing an integer with a container size.	Vérifiez les types et leurs plages, surtout lors d’une comparaison avec la taille d’un conteneur.
+Format does not match arguments	Format incompatible avec les arguments
+Check printf or scanf format specifiers, argument types and argument counts.	Vérifiez les formats de printf ou scanf, les types et le nombre d’arguments.
+Misleading indentation	Indentation trompeuse
+Check braces and the bounds of the condition or loop. Indentation alone does not define a block in C or C++.	Vérifiez les accolades et les limites du bloc. L’indentation seule ne définit pas un bloc en C ou C++.
+Deprecated item used	Utilisation d’un élément obsolète
+Check the suggested replacement or library documentation before changing it.	Consultez le remplacement proposé ou la documentation avant de le modifier.
+Cannot access file	Accès au fichier impossible
+The file may be in use or not writable. Stop the running program and check its path and permissions.	Le fichier est peut-être utilisé ou non modifiable. Arrêtez le programme et vérifiez le chemin et les droits.
+Expected token or construct	Symbole ou construction attendu
+Check the tokens requested by the compiler, this location and the previous line.	Vérifiez les symboles attendus, cet emplacement et la ligne précédente.
+Incomplete or unexpected syntax	Syntaxe incomplète ou inattendue
+Check the tokens and their order near this location. The original message explains what the compiler expected.	Vérifiez les symboles et leur ordre. Le message original précise ce que le compilateur attendait.
+Linking did not complete	Édition des liens incomplète
+Check earlier linker messages to identify the missing symbol, library or file.	Consultez les messages précédents pour identifier le symbole, la bibliothèque ou le fichier en cause.
+Compiler warning	Avertissement du compilateur
+No precise explanation is available yet. Check the original warning before changing the code.	Aucune explication précise n’est disponible. Consultez l’avertissement original avant de modifier le code.
+Compiler or linker message	Message du compilateur ou de l’éditeur de liens
+No precise explanation is available yet. The original message is preserved below.	Aucune explication précise n’est disponible. Le message original est conservé ci-dessous.

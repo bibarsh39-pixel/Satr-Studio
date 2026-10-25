@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Satr Studio
+Comment=C, C++, Python, JavaScript and Java editor
+Exec=/opt/satr-studio/Satr %F
+Icon=satr-studio
+Terminal=false
+Categories=Development;IDE;
+MimeType=text/x-csrc;text/x-c++src;text/x-chdr;text/x-c++hdr;text/x-python;application/javascript;text/javascript;text/x-java;
+StartupNotify=true

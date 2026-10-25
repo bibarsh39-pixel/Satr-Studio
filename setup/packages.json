@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "gcc": {
+    "id": "gcc-14.2.0",
+    "label": "مترجم C وC++ والمكتبات القياسية",
+    "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-12.0.0-ucrt-r3/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r3.zip",
+    "bytes": 246962421,
+    "sha256": "88868d745b807f083a117ff69348d8bc021ad7389aa503379dbed1866efcaeb9",
+    "extension": ".zip",
+    "tool": "mingw64\\bin\\g++.exe"
+  },
+  "clangd": {
+    "id": "clangd-19.1.2",
+    "label": "أداة إكمال الكود",
+    "url": "https://github.com/clangd/clangd/releases/download/19.1.2/clangd-windows-19.1.2.zip",
+    "bytes": 42272208,
+    "sha256": "5b6ceb0f85d63fa0c2c9aab31c29bebd41dc11da1f160ef21bc2fea93270a20d",
+    "extension": ".zip",
+    "tool": "clangd_19.1.2\\bin\\clangd.exe"
+  },
+  "assistant": {
+    "id": "llama-b11669",
+    "label": "محرك المساعد المحلي",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cpu-x64.zip",
+    "bytes": 19537886,
+    "sha256": "37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b",
+    "extension": ".zip",
+    "tool": "llama-completion.exe"
+  },
+  "model": {
+    "id": "qwen-coder-0.5b",
+    "label": "نموذج المساعد المحلي",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF/resolve/ebb2015119c907b064c512bf053e945850b5875f/qwen2.5-coder-0.5b-instruct-q4_k_m.gguf",
+    "bytes": 491400064,
+    "sha256": "1d9614638d18024d0fbb36575a15f1302a3adf044df10345688ec4f6e1c4ff32",
+    "extension": ".gguf",
+    "file": "qwen2.5-coder-0.5b-instruct-q4_k_m.gguf"
+  },
+  "visualCpp": {
+    "id": "vc-redist-x64",
+    "label": "Microsoft Visual C++",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+    "bytes": 18731856,
+    "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+    "extension": ".exe"
+  },
+  "python": {
+    "id": "python-3.14.9",
+    "label": "Python",
+    "url": "https://www.python.org/ftp/python/3.14.9/python-3.14.9-embed-amd64.zip",
+    "bytes": 12609248,
+    "sha256": "3c01d7cfc666f746a6f064f60fb2156ab0ec464d3d738ab796371a46a9bb24a2",
+    "extension": ".zip",
+    "tool": "python.exe"
+  },
+  "node": {
+    "id": "node-24.22.1",
+    "label": "JavaScript / Node.js",
+    "url": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip",
+    "bytes": 37748064,
+    "sha256": "d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5",
+    "extension": ".zip",
+    "tool": "node-v24.22.1-win-x64\\node.exe"
+  },
+  "java": {
+    "id": "java-21",
+    "label": "Java / JDK 21",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+    "bytes": 205073461,
+    "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+    "extension": ".zip",
+    "tool": "jdk-21.0.12.1+1\\bin\\javac.exe",
+    "companions": [
+      "jdk-21.0.12.1+1\\bin\\java.exe"
+    ]
+  }
+}
