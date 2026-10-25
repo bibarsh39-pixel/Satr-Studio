@@ -4,12 +4,15 @@ Unicode True
 !include "LogicLib.nsh"
 !include "FileFunc.nsh"
 Name "Satr Studio 0.9.0"
-OutFile "../../../outputs/Satr-Studio-0.9.0-Windows-x64-Setup.exe"
+!ifndef SATR_OUTPUT
+  !define SATR_OUTPUT "../../../outputs/Satr-Studio-0.9.0-Windows-x64-Setup.exe"
+!endif
+OutFile "${SATR_OUTPUT}"
 InstallDir "$LOCALAPPDATA\Programs\Satr Studio"
 InstallDirRegKey HKCU "Software\SatrStudio" "InstallDir"
 RequestExecutionLevel user
 SetCompressor /SOLID zlib
-SetDatablockOptimize on
+SetDatablockOptimize off
 ShowInstDetails show
 ShowUninstDetails show
 VIProductVersion "0.9.0.0"

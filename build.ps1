@@ -114,6 +114,7 @@ try {
     $arguments = @(
         '-std=c++17', '-O2', '-s', '-Wall', '-Wextra', '-m64', '-mthreads',
         '-D__WXMSW__', '-DWXUSINGDLL', '-DUNICODE', '-D_UNICODE',
+        ('-ffile-prefix-map=' + (Split-Path -Parent $PSScriptRoot).Replace('\', '/') + '=build'),
         ('-I' + $WxInclude.Replace('\', '/')),
         ('-I' + $WxConfig.Replace('\', '/')),
         ('-I' + $thirdParty.Replace('\', '/'))
@@ -130,7 +131,7 @@ try {
     $runnerSource = Join-Path $sourceDirectory 'console_runner.cpp'
     if (Test-Path -LiteralPath $runnerSource) {
         $runnerExecutable = Join-Path $stageDirectory 'SatrRunner.exe'
-        & $Compiler '-std=c++17' '-O2' '-s' '-Wall' '-Wextra' '-municode' '-static' '-static-libgcc' '-static-libstdc++' ('-I'+$thirdParty) $runnerSource '-o' $runnerExecutable
+        & $Compiler '-std=c++17' '-O2' '-s' '-Wall' '-Wextra' '-municode' '-static' '-static-libgcc' '-static-libstdc++' ('-ffile-prefix-map='+(Split-Path -Parent $PSScriptRoot).Replace('\','/')+'=build') ('-I'+$thirdParty) $runnerSource '-o' $runnerExecutable
         if ($LASTEXITCODE -ne 0) { throw 'Console runner compilation failed.' }
         Copy-Item -LiteralPath $runnerExecutable -Destination (Join-Path $OutputDirectory 'SatrRunner.exe') -Force
     }

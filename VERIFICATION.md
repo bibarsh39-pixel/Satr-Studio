@@ -3,6 +3,11 @@
 Verified 24 October 2026. This is a full Windows/Ubuntu distribution with Java
 added alongside C, C++, Python and JavaScript. No previous release is needed.
 
+Publication refresh, 25 October 2026: documentation and source packaging were
+updated. Windows diagnostic source paths now use a generic build prefix. Its
+five-language and editor checks were rerun after rebuilding. Linux executables
+are unchanged. The refreshed installer payloads and documents were verified.
+
 | Check | Result |
 | --- | --- |
 | Windows application: five languages | 81 passed |
@@ -12,6 +17,8 @@ added alongside C, C++, Python and JavaScript. No previous release is needed.
 | Windows full installer: editor | 49 passed |
 | Ubuntu package: five languages | 81 passed |
 | Ubuntu package: editor | 46 passed |
+| Windows publication build: five languages | 81 passed |
+| Windows publication build: editor | 49 passed |
 | Windows Java compiler/cache/dependencies/Unicode | 47 passed |
 | Ubuntu Java compiler/cache/dependencies/Unicode | 47 passed |
 | Windows real external terminals: Python, JavaScript, Java | 3 passed |
