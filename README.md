@@ -8,8 +8,8 @@ console. This is a complete installer, not a patch; no previous release is neede
 
 **[Download Satr Studio 0.9.0](https://github.com/bibarsh39-pixel/Satr-Studio/releases/tag/v0.9.0)**
 
-Choose the Windows installer, the Ubuntu package, or the complete Windows/Linux
-ZIP. The full ZIP extracts into one `Satr-Studio` folder. The Source code buttons
+Download the complete Windows/Linux ZIP, then choose the installer for your
+system inside its single `Satr-Studio` folder. The Source code buttons
 on GitHub download the source project, not the installed application.
 
 [Google Drive mirror](https://drive.google.com/file/d/1hs9CL3SlVRWNdxqjSY0HgcIQGjTkFH3J/view)
